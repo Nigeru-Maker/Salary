@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salary Transaction Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Employee Salary Report</h2>
+
+  <label for="name">Employee Name:</label>
+  <input type="text" id="name" placeholder="Enter full name" />
+
+  <label for="rate">Rate per Hour:</label>
+  <input type="number" id="rate" placeholder="Enter rate (e.g., 100)" />
+
+  <label for="hours">Hours Worked:</label>
+  <input type="number" id="hours" placeholder="Enter hours (e.g., 40)" />
+
+  <button onclick="generateReport()">Click to Display</button>
+
+  <div id="report"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
